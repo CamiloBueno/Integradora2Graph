@@ -27,8 +27,8 @@ public class Main {
     public int showMenu() {
         System.out.println("Menu: \n" +
                 "(1) Exit \n" +
-                "(2) \n" + "Display the fastest route to reach the habitable planet. \n" +
-                "(3) \n" + "Check if it is possible to reach the habitable planet from a specific point.");
+                "(2) Display the fastest route to reach the habitable planet. \n" +
+                "(3) Check if it is possible to reach the habitable planet from a specific point.");
 
         int option = sc.nextInt();
         sc.nextLine();
